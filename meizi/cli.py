@@ -20,7 +20,7 @@ def cli():
 @click.option('--data-dir', type=click.Path(path_type=Path), default=DEFAULT_DATA_DIR, show_default=True,
               help="The directory to save albums.")
 def download(max_workers, data_dir):
-    """Download albums to ./images."""
+    """Download albums."""
     main(max_workers, data_dir)
 
 

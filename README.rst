@@ -2,10 +2,10 @@
 Meizi
 =====
 
-*Meiz* provides two commands:
+*Meizi* provides two commands:
 
 - ``mz download`` for downloading nice albums.
-- ``mz serve`` for starting a simple web UI to serve the albums.
+- ``mz serve`` for starting a simple web server to serve the albums.
 
 Install
 =======
@@ -30,7 +30,7 @@ Commands
     $ mz download --help
     Usage: mz download [OPTIONS]
 
-      Download albums to ./images.
+      Download albums.
 
     Options:
       --max-workers INTEGER  The number of threads for downloading.  [default: 50]
