@@ -4,8 +4,8 @@ from .wsgi import create_app
 from pathlib import Path
 
 DEFAULT_PORT = 1310
-DEFAULT_DATA_DIR = Path('./images')
-DEFAULT_MAX_WORKERS = 50
+DEFAULT_DATA_DIR = Path.home() / '.meizi'
+DEFAULT_MAX_WORKERS = 2
 
 
 @click.group()

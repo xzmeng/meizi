@@ -5,11 +5,10 @@ from pathlib import Path
 
 
 def list_albums(data_dir: Path):
-    if not data_dir.exists():
+    albums_dir = data_dir / 'albums'
+    if not albums_dir.exists():
         return []
-    albums = os.listdir(data_dir)
-    if 'ok.txt' in albums:
-        albums.remove('ok.txt')
+    albums = os.listdir(albums_dir)
     return albums
 
 

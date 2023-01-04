@@ -61,7 +61,7 @@ def download_album(data_dir, album_url) -> Path:
     image_url = sel.css('.content-pic img::attr(src)').get()
     prefix = image_url.rsplit('/', maxsplit=1)[0]
     image_urls = [f'{prefix}/{i}.jpg' for i in range(1, count + 1)]
-    album_dir = data_dir / album_name
+    album_dir = data_dir / 'albums' / album_name
     album_dir.mkdir(parents=True, exist_ok=True)
     ok_count = 0
     for image_url in image_urls:

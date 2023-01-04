@@ -35,8 +35,9 @@ Commands
       Download albums.
 
     Options:
-      --max-workers INTEGER  The number of threads for downloading.  [default: 50]
-      --data-dir PATH        The directory to save albums.  [default: images]
+      --max-workers INTEGER  The number of threads for downloading.  [default: 2]
+      --data-dir PATH        The directory to save albums.  [default:
+                             /Users/xzmeng/.meizi]
       --help                 Show this message and exit.
 
 
@@ -48,7 +49,8 @@ Commands
       Run a local http server.
 
     Options:
-      --data-dir PATH  The directory to read albums.  [default: images]
+      --data-dir PATH  The directory to read albums.  [default:
+                       /Users/xzmeng/.meizi]
       --port INTEGER   The port of the http server.  [default: 1310]
       --help           Show this message and exit.
 
