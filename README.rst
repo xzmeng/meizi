@@ -1,6 +1,6 @@
-====
-Meiz
-====
+=====
+Meizi
+=====
 
 *Meiz* provides two commands:
 
@@ -12,7 +12,7 @@ Install
 
 .. code-block:: bash
 
-    $ pip install meiz
+    $ pip install meizi
 
 Usage
 =====
@@ -22,7 +22,8 @@ another terminal.
 
 Then open http://localhost:1310 in your browser.
 
-=========
+Commands
+========
 
 .. code-block:: bash
 
