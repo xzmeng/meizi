@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>共{{ titles|length }}结果</p>
+<ol>
+    {% for title in titles %}
+    <li>
+        <h2><a href="/album/{{ title }}">{{ title }}</a></h2>
+    </li>
+    {% endfor %}
+</ol>
+{% endblock %}

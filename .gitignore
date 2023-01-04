@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+__pycache__/
+dist/
+
+images/
+
+*.log
+
+*.DS_Store
+
+t.py
+t.ipynb
