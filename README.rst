@@ -10,7 +10,7 @@ Meizi
 Install
 =======
 
-You need have **Python 3.8+**.
+You need to have **Python 3.8+**.
 
 .. code-block:: bash
 
