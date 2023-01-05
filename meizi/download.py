@@ -55,6 +55,7 @@ def mark_downloaded(data_dir, url):
 def download_album(data_dir, album_url) -> Path:
     if is_downloaded(data_dir, album_url):
         logger.info(f'{album_url} is already downloaded.')
+        return
     sel = get_selector(album_url)
     album_name = sel.css('h5::text').get()
     count = int(re.search(r'共(\d+)页', sel.get()).group(1))
