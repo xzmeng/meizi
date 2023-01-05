@@ -27,7 +27,7 @@ Then open http://localhost:1310 in your browser.
 Commands
 ========
 
-.. code-block:: bash
+.. code-block::
 
     $ mz download --help
     Usage: mz download [OPTIONS]
@@ -41,7 +41,7 @@ Commands
       --help                 Show this message and exit.
 
 
-.. code-block:: bash
+.. code-block::
 
     $ mz serve --help
     Usage: mz serve [OPTIONS]
